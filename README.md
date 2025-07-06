@@ -177,6 +177,4 @@ Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) fo
   <p>Developed with ❤️ by the Pirana Swarm Team</p>
   <p>© 2025 Pirana Swarm | All Rights Reserved</p>
   
-  <a href="https://twitter.com/piranaswarm"><img src="https://img.shields.io/twitter/follow/piranaswarm?style=social" alt="Twitter Follow"></a>
-  <a href="https://discord.gg/piranaswarm"><img src="https://img.shields.io/discord/1234567890?style=social&label=Discord" alt="Discord"></a>
-</div>
+ 
