@@ -14,17 +14,15 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 **Pirana Swarm** is a revolutionary open-source intelligence (OSINT) platform that utilizes neural network enhancements to transform public data into actionable intelligence. Unlike traditional OSINT tools that focus on isolated data collection, Pirana Swarm employs a multi-vector approach with advanced correlation capabilities that outclass existing solutions.
 
-<p align="center">
-  <img src="https://i.imgur.com/YourDemoGifHere.gif" alt="Pirana Swarm Demo" width="700">
-</p>
+
 
 > *"The most sophisticated intelligence platform available in the public domain"* — Cybersecurity Today
 
-## 🌟 Key Differentiators
+##  Key Differentiators
 
 - **Neural Network Enhanced**: Not just data collection - actual intelligence through advanced ML algorithms
 - **Correlation Engine**: Automatically identifies non-obvious connections across disparate data sources
@@ -34,9 +32,9 @@
 
 ---
 
-## ⚡ Multi-Vector Intelligence Fusion (NN-Enhanced)
+##  Multi-Vector Intelligence Fusion (NN-Enhanced)
 
-### 🧠 Social Media Intelligence
+###  Social Media Intelligence
 - Comprehensive data harvesting from LinkedIn, Twitter, Instagram, Facebook, TikTok
 - Automated profile discovery across platforms using entity correlation
 - Cross-platform activity timeline generation and frequency analysis
@@ -44,7 +42,7 @@
 - **NN Enhancement**: Behavioral pattern recognition for prediction modeling
 - **NN Enhancement**: Content authenticity verification using linguistic fingerprinting
 
-### 🗺️ Infrastructure & Digital Footprint Mapping
+### Infrastructure & Digital Footprint Mapping
 - Advanced domain/subdomain enumeration with visual relationship mapping
 - Email & phone intelligence with automatic breach data correlation
 - Cloud infrastructure discovery and mapping (AWS, Azure, GCP)
@@ -52,7 +50,7 @@
 - **NN Enhancement**: Automated entity resolution to link infrastructure across platforms
 - **NN Enhancement**: Anomaly detection in digital footprint patterns
 
-### 📑 Public Records & Document Intelligence
+###  Public Records & Document Intelligence
 - Global business filings aggregation with change detection
 - Property records correlation and beneficial ownership analysis
 - Court documents collection with semantic search capabilities
@@ -60,7 +58,7 @@
 - **NN Enhancement**: NLP-powered document summarization and insights extraction
 - **NN Enhancement**: Key relationship mapping from unstructured text
 
-### 🔍 Deep Web & Image Intelligence
+###  Deep Web & Image Intelligence
 - Dark web monitoring across forums, markets, and paste sites
 - Advanced reverse image search with facial recognition capabilities
 - EXIF and metadata extraction with geospatial correlation
@@ -71,7 +69,7 @@
 
 ---
 
-## 🎯 Primary Domain Focus: Total Target Profiling
+##  Primary Domain Focus: Total Target Profiling
 
 Pirana Swarm excels at building comprehensive digital profiles through aggressive data collection and neural network-powered correlation:
 
@@ -81,11 +79,8 @@ Pirana Swarm excels at building comprehensive digital profiles through aggressiv
 - **Brand Monitoring**: Reputation analysis, influence mapping, sentiment tracking
 - **Supply Chain Intelligence**: Vendor assessment, relationship analysis, vulnerability identification
 
-## 🚀 The Killer Feature: Advanced Correlation Engine
+##  The Killer Feature: Advanced Correlation Engine
 
-<p align="center">
-  <img src="https://i.imgur.com/YourCorrelationEngineImageHere.png" alt="Correlation Engine" width="600">
-</p>
 
 The heart of Pirana Swarm is its revolutionary correlation engine that:
 
@@ -99,7 +94,7 @@ This creates a relentless intelligence system that strips away every layer of pu
 
 ---
 
-## 💻 Installation
+##  Installation
 
 ```bash
 # Clone the repository
@@ -146,7 +141,7 @@ report = swarm.generate_report(format="html")
 swarm.export(format="maltego")
 ```
 
-## 📊 Visualization Interface
+##  Visualization Interface
 
 Pirana Swarm includes a powerful web interface for intelligence visualization:
 
@@ -159,7 +154,7 @@ Then visit `http://localhost:8080` in your browser to access the full visualizat
 
 ---
 
-## ⚠️ Ethical Usage
+##  Ethical Usage
 
 Pirana Swarm is designed for legitimate security research, corporate intelligence, and investigative purposes. The developers strongly condemn any illegal or unethical use of this tool. Always:
 
@@ -168,11 +163,11 @@ Pirana Swarm is designed for legitimate security research, corporate intelligenc
 - Use for defensive security purposes only
 - Obtain proper authorization before investigating any target
 
-## 📜 License
+##  License
 
 Pirana Swarm is released under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests, report bugs, and suggest enhancements.
 
