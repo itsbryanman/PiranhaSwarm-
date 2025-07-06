@@ -1,0 +1,36 @@
+{
+  "network": {
+    "interface": "eth0",
+    "timeout_ms": 5000,
+    "max_retries": 3,
+    "dns_servers": ["8.8.8.8", "1.1.1.1"],
+    "proxy_rotation": false,
+    "proxy_list": []
+  },
+  "logging": {
+    "level": "info",
+    "format": "json",
+    "output_file": null,
+    "structured": true
+  },
+  "storage": {
+    "backend": "file",
+    "connection_string": "./data",
+    "encryption_key": null,
+    "retention_days": 30
+  },
+  "capture": {
+    "buffer_size": 1048576,
+    "promiscuous": false,
+    "capture_timeout": 1000,
+    "packet_filter": null,
+    "max_packets": null
+  },
+  "analysis": {
+    "enable_geolocation": true,
+    "geoip_database_path": null,
+    "fingerprint_timeout": 10000,
+    "concurrent_scans": 10,
+    "tcp_timeout": 5000
+  }
+}

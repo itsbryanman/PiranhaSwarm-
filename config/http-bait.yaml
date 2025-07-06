@@ -1,0 +1,56 @@
+listen_address: "0.0.0.0"
+listen_port: 8080
+domain: "bait.piranha.local"
+log_level: "info"
+log_format: "json"
+session_ttl: "2h"
+enable_https: false
+tls_cert_file: ""
+tls_key_file: ""
+callback_base_url: "http://localhost:8080"
+
+# Payload configuration
+payload_types:
+  - "windows_exe"
+  - "linux_script"
+  - "web_payload"
+  - "office_macro"
+
+# Fake services to simulate
+fake_services:
+  - path: "/api/health"
+    method: "GET"
+    description: "Health check endpoint"
+    headers:
+      "X-Service": "HealthCheck"
+    body: '{"status": "ok", "timestamp": "{{.timestamp}}"}'
+    status_code: 200
+    
+  - path: "/api/version"
+    method: "GET"
+    description: "Version endpoint"
+    headers:
+      "X-Service": "Version"
+    body: '{"version": "1.2.3", "build": "{{.session_id}}"}'
+    status_code: 200
+    
+  - path: "/login"
+    method: "POST"
+    description: "Fake login endpoint"
+    headers:
+      "X-Service": "Authentication"
+    body: '{"error": "Invalid credentials"}'
+    status_code: 401
+
+# Security headers to mimic real services
+security_headers:
+  "X-Frame-Options": "DENY"
+  "X-Content-Type-Options": "nosniff"
+  "X-XSS-Protection": "1; mode=block"
+  "Referrer-Policy": "strict-origin-when-cross-origin"
+
+# Monitoring
+metrics:
+  enabled: true
+  port: 9091
+  path: "/metrics"

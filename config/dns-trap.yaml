@@ -1,0 +1,26 @@
+listen_address: "0.0.0.0"
+listen_port: 5353
+domain: "trap.piranha.local"
+log_level: "info"
+log_format: "json"
+session_ttl: "1h"
+redis_url: "redis://localhost:6379"
+webhook_url: ""
+
+# Response configuration
+responses:
+  default_ttl: 300
+  a_record_base: "10.0.0.0/8"
+  aaaa_record_base: "fd00::/8"
+  
+# Monitoring
+metrics:
+  enabled: true
+  port: 9090
+  path: "/metrics"
+
+# Rate limiting
+rate_limiting:
+  enabled: true
+  requests_per_minute: 100
+  burst_size: 10
